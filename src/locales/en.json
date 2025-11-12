@@ -1,0 +1,147 @@
+{
+    "header": {
+        "home": "HOME",
+        "about": "ABOUT",
+        "projects": "PROJECTS",
+        "works": "EXPERIENCES"
+    },
+
+    "home": {
+        "title": "Welcome to my website!",
+        "text": "Here you'll find an <b>overview</b> of my <b>background</b>, some <b>projects I've worked on</b>, as well as links to my <b>GitHub</b> and <b>LinkedIn</b> profiles."
+    },
+
+    "about": {
+        "me": {
+            "title": "About me",
+            "text": "<p>I am currently in my <b>final year of computer engineering</b> at CY Tech, specializing in <b>visual computing</b>. I enjoy developing projects that allow me to <b>put my knowledge into practice</b> and <b>see my ideas come to life</b>.</p><p>I work with several technologies such as <b>C</b>, <b>Python</b>, and other languages depending on the project. I also enjoy <b>teamwork</b>, as it enables the creation of <b>more ambitious and complete projects</b>.</p>"
+        },
+        "education": {
+            "title": "Education",
+            "schools": [
+                {
+                    "title": "Third year of the computer engineering cycle, Visual Computing specialization",
+                    "info": "CY Tech, Cergy | 2023 - 2026 (expected)"
+                },
+                {
+                    "title": "International exchange in Japan",
+                    "info": "Keio University, Japan | April - July 2025"
+                },
+                {
+                    "title": "Integrated preparatory cycle at CY Tech",
+                    "info": "CY Tech, Cergy | 2021 - 2023"
+                }
+            ]
+        }
+    },
+
+    "projects": {
+        "title": "My projects",
+        "text": "I have worked on <b>various projects</b>, whether <b>personal</b>, <b>academic</b>, or <b>professional</b>. These experiences have allowed me to <b>develop</b> my <b>technical skills</b> and <b>organizational abilities</b> while exploring <b>different fields</b>.",
+        "technos": "Technologies used: ",
+        "1": {
+            "title": "Tekien",
+            "summary": "Mobile application listing CY Tech's student associations and their events.",
+            "paragraphs": [
+                {
+                    "title": "Goal",
+                    "text": "<p>The goal of this project was to <b>port an existing website to mobile</b>. The website's purpose was to <b>centralize information about CY Tech associations</b> and their <b>events</b>.</p><p>Having all this information accessible on a phone allows students to easily stay informed about the different associations and enjoy a more fulfilling campus life.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/web.png"]
+                },
+                {
+                    "title": "Implementation",
+                    "text": "<p>To carry out this project, we took the logic of the existing website, originally developed with Vue.js. For the mobile version, we decided to use <b>React</b> and <b>Ionic</b> to offer a <b>different implementation</b> and a <b>fresh experience</b>.</p><p>We retrieve association and event data through an <b>API</b> developed by the <b>team maintaining the website</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/app1.png", "/PortfolioVue/project_image/Tekien/app1.png"]
+                },
+                {
+                    "title": "New features",
+                    "text": "<p>This mobile version allowed us to introduce <b>new features</b>.</p><p>We implemented a <b>favorites system</b> so users can <b>follow their favorite associations</b> instead of browsing the entire list each time.</p><p>It is now possible to <b>customize the app's theme</b> and switch between <b>French</b> and <b>English</b>.</p><p>Finally, one of the most important additions is <b>notifications</b>. Users can now <b>“subscribe” to events</b> and receive <b>reminders</b> when those events are about to <b>start</b>.</p><p>These additions make the app more <b>useful for a wide range of students</b> and help <b>promote student associations</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/new1.png", "/PortfolioVue/project_image/Tekien/new2.png"]
+                }
+            ]
+        },
+        "2": {
+            "title": "3D Engine",
+            "summary": "A basic 3D engine to visualize a model from different perspectives.",
+            "paragraphs": [
+                {
+                    "title": "Project goal",
+                    "text": "<p>The goal of this project was to create a <b>3D engine using OpenGL</b> to understand how it works.</p><p>To do this, I implemented a <b>shader system</b> using <b>.frag</b> and <b>.vert</b> files. It is possible to <b>move and rotate the 3D model</b> to better observe the engine's behavior.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Moteur3D/engine1.png", "/PortfolioVue/project_image/Moteur3D/engine2.png", "/PortfolioVue/project_image/Moteur3D/engine3.png"]
+                },
+                {
+                    "title": "Light and shadow",
+                    "text": "<p>The light's position and color can be adjusted to better observe shadows.</p><p>It also supports <b>two shading models</b>: <b>Phong</b> and <b>Gouraud</b>. These two implementations help visualize different ways of handling shading.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Moteur3D/phong.png", "/PortfolioVue/project_image/Moteur3D/gouraud.png"]
+                }
+            ]
+        },
+        "3": {
+            "title": "CY Books",
+            "summary": "A project aimed at developing a library management application.",
+            "paragraphs": [
+                {
+                    "title": "Features",
+                    "text": "<p>This project includes several features:</p><ul><li><b>Book management</b></li><li><b>User management</b></li><li><b>Borrowing management</b></li></ul><p>Everything is handled in a database using <b>SQLite</b>.</p>"
+                },
+                {
+                    "title": "Book management",
+                    "text": "<p>Books and their details are retrieved from the Gallica API of the French National Library (BnF). This allows us to <b>filter books</b> by <b>title</b>, <b>author</b>, or <b>publisher</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/book.png"]
+                },
+                {
+                    "title": "User management",
+                    "text": "<p>Users are stored in an <b>SQLite database</b> to easily <b>create</b>, <b>edit</b>, and <b>delete</b> them.</p><p>Each user has a <b>profile page</b> displaying their <b>information</b> and the <b>books they have borrowed</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/user1.png", "/PortfolioVue/project_image/CY_BOOKS/user2.png"]
+                },
+                {
+                    "title": "Borrowing management",
+                    "text": "<p>Just like users, borrowings are stored in an SQLite database. Each borrowing has a <b>return deadline</b> that helps track overdue books — this <b>updates automatically</b>.</p><p>Borrowings can also be <b>filtered</b> by their status: <b>overdue</b>, <b>ongoing</b>, or <b>completed</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/borrow.png"]
+                }
+            ]
+        },
+        "4": {
+            "title": "Space Shooter",
+            "summary": "A small space shooter game made with the Godot engine.",
+            "paragraphs": [
+                {
+                    "title": "Development",
+                    "text": "<p>The game was created using the <b>Godot</b> engine and its scripting language, <b>GDScript</b>. I focused on a small project with a simple game loop to get familiar with Godot.</p><p>The main features implemented are <b>player movement</b>, a <b>shooting system</b>, <b>enemy spawning</b>, and a <b>final boss</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/making.png"]
+                },
+                {
+                    "title": "Gameplay",
+                    "text": "<p>The goal is simple: defeat enough enemies to unlock and defeat the boss.</p><p>There are three types of enemies with <b>different behaviors</b>:</p><ul><li>The first moves <b>straight downward</b>.</li><li>The second is similar but <b>faster</b> and moves in an <b>oscillating pattern</b>.</li><li>The third tries to <b>align with the player</b> to <b>shoot at them</b>.</li></ul>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/game1.png", "/PortfolioVue/project_image/Space_shooter/game2.png"]
+                },
+                {
+                    "title": "Boss behavior",
+                    "text": "<p>The boss is built as a <b>finite state machine</b>. Each state corresponds to a behavior or attack pattern and changes every few seconds. There's no fixed order, so the player must <b>adapt quickly</b> to each new phase.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/boss.png"]
+                }
+            ]
+        },
+        "5": {
+            "title": "Battleship",
+            "summary": "A command-line Battleship game developed in C.",
+            "paragraphs": [
+                {
+                    "title": "The game",
+                    "text": "<p>This C game follows the classic <b>Battleship</b> rules. Players must <b>place their ships</b> and <b>sink the opponent's fleet</b>. The game is played <b>solo against the computer</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/game1.png", "/PortfolioVue/project_image/Bataille_navale/game2.png"]
+                },
+                {
+                    "title": "The computer",
+                    "text": "<p>The computer has a <b>very simple AI</b>: it <b>fires randomly</b> until it hits one of the player's ships. However, if it repeatedly selects already-hit cells, it switches to <b>scanning all cells sequentially</b> until it finds an untouched one.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/game3.png"]
+                },
+                {
+                    "title": "Comments",
+                    "text": "<p>The code is fully documented using <b>Doxygen</b> conventions, allowing for <b>quick generation</b> of a <b>clear and structured documentation</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/comment1.png", "/PortfolioVue/project_image/Bataille_navale/comment2.png"]
+                }
+            ]
+        }
+    }
+}

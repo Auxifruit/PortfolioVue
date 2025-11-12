@@ -1,0 +1,151 @@
+{
+    "header": {
+        "home": "ACCUEIL",
+        "about": "À PROPOS",
+        "projects": "PROJETS",
+        "works": "EXPÉRIENCES"
+    },
+
+    "home": {
+        "title": "Bienvenue sur mon site web !",
+        "text": "Vous y trouverez une <b>présentation</b> de mon <b>parcours</b>, quelques <b>projets que j'ai pu réaliser</b> ainsi que des liens vers mon <b>Github</b> et mon </b>Linkedin</b>"
+    },
+
+    "about": {
+        "me" : {
+            "title": "À propos de moi",
+            "text": "<p>Je suis actuellement en <b>dernière année d'ingénieur informatique</b> à CY Tech en spécialité <b>visual computing</b>. J'aime développer des projets me permettant de <b>mettre en pratique mes connaissances</b> et de <b>voir mes idées prendre vie</b>.</p><p>J'utilise plusieurs technologies comme du <b>C</b>, <b>Python</b> ou d'autres langages selon les projets. J'apprécie également le <b>travail en équipe</b>, car cela permet de créer des <b>projets plus ambitieux et complets</b>.</p>"
+        },
+        "education" : {
+            "title": "Éducation",
+            "schools": [
+                {
+                    "title": "Troisième année de cycle ingénieur informatique spécialité Visual Computing",
+                    "info": "CY Tech, Cergy | 2023 - 2026 (prévu)"
+                },
+                {
+                    "title": "Séjour d'échange à l'international au Japon",
+                    "info": "Keio University, Japon | Avril - Juillet 2025"
+                },
+                {
+                    "title": "Cycle préparatoire intégré CY Tech",
+                    "info": "CY Tech, Cergy | 2021 - 2023"
+                }
+            ]
+        }
+    },
+
+    "projects": {
+        "title": "Mes projets",
+        "text": "J'ai réalisé <b>divers projets</b>, qu'ils soient <b>personnels</b>, <b>scolaires</b> ou <b>professionnels</b>. Ces différents projets m'ont permis de <b>développer</b> mes <b>compétences techniques</b> et mon <b>sens de l'organisation</b> tout en explorant des <b>domaines variés</b>.",
+        "technos": "Technologies utilisées : ",
+        "1": {
+        "title": "Tekien",
+        "summary": "Application mobile permettant de lister les associations de CY Tech et leurs évènements.",
+        "paragraphs": [
+            { 
+                    "title": "Objectif",
+                    "text": "<p>L'objectif de ce projet était de <b>porter un site web existant sur mobile</b>. Le site avait pour but de <b>centraliser les informations des associations</b> de CY Tech et <b>leurs évènements</b>.</p><p>Avoir toutes ces informations à partir d'un téléphone permettrait aux étudiants de pouvoir s'informer sur les différentes associations afin d'avoir une vie étudiante épanouissante.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/web.png"]
+            },
+            { 
+                    "title": "Mise en place",
+                    "text": "<p>Afin de réaliser ce projet, nous avons repris le fonctionnement du site existant développer initialement avec Vue.js. Pour l'application mobile, nous avons décider d'utiliser <b>React</b> et <b>Ionic</b> afin de se démarquer du site et de proposer un <b>nouveau type d'implémentation</b>.</p><p>Pour récupérer les informations des associations et de leurs activités, nous faisons appel à une <b>API</b> développée par <b>l'équipe s'occupant du site web</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/app1.png", "/PortfolioVue/project_image/Tekien/app1.png"]
+            },
+            { 
+                    "title": "Nouvelles fonctionnalités",
+                    "text": "<p>Cette implémentation sur mobile nous a permis de mettre en place de <b>nouvelles fonctionnalités</b>.</p><p>Nous avons mis en place un <b>système de favoris</b> qui permet de <b>suivre les associations</b> qui nous intéressent au lieu d'avoir à les rechercher dans la liste complète des différentes associations.</p><p>Il est possible maintenant de <b>personnaliser le thème de l'application</b> et de changer entre <b>le français</b> et <b>l'anglais</b>.</p><p>Enfin, l'une des nouvelles fonctionnalités les plus importantes est <b>l'ajout de notifications</b>. En effet, il est possible de pouvoir <b>\"s'inscrire\" à certains évènements</b> afin de recevoir des <b>notifications</b> lorque celui-ci s'apprête à <b>commencer</b>.</p><p>Ces ajouts permettent d'avoir une application <b>utilisable par un grand nombre d'étudiants</b> et de <b>développer les associations de l'école</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Tekien/new1.png", "/PortfolioVue/project_image/Tekien/new2.png"]
+            }
+        ]
+        },
+        "2": {
+            "title": "Moteur 3D",
+            "summary": "Base d'un moteur 3D pour visualiser un modèle sous différentes positions.",
+            "paragraphs": [
+                { 
+                    "title": "But du projet",
+                    "text": "<p>Ce projet a pour but de créer un <b>moteur 3D avec OpenGL</b> afin de comprendre le fonctionnement de celui-ci.</p><p>Pour ce faire, j'ai mis en place un système de <b>shader</b> avec un fichier <b>.frag</b> et <b>.vert</b>. Il est possible de <b>changer</b> et de tourner le modèle 3D</b> afin de mieux observer le comportement du moteur.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Moteur3D/engine1.png", "/PortfolioVue/project_image/Moteur3D/engine2.png", "/PortfolioVue/project_image/Moteur3D/engine3.png"]
+                },
+                {
+                    "title": "Lumière et ombre",
+                    "text": "<p>Il est possible de modifier la lumière, que ce soit sa position ou sa couleur. Cela nous permet de pouvoir mieux voir les ombres.</p><p>De plus, il y est possible d'avoir <b>deux types d'ombrage</b> : <b>Phong</b> et <b>Gouraud</b>. C'est deux implémenation permet de voir comment les ombres peuvent être gérées.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Moteur3D/phong.png", "/PortfolioVue/project_image/Moteur3D/gouraud.png"]
+
+                }
+            ]
+        },
+        "3": {
+            "title": "CY Books",
+            "summary": "Projet visant à réaliser une application pour la gestion d'une bibliothèque.",
+            "paragraphs": [
+                { 
+                    "title": "Fonctionnalités",
+                    "text": "<p>Dans ce projet, plusieurs fonctionnalités sont disponibles :</p><ul><li><b>Gestion des livres</b></li><li><b>Gestion des utilisateurs</b></li><li><b>Gestion des emprunts</b></li></ul><p>Le tout est géré dans une base de données en utilisant <b>SQLite</b>.</p>"
+                },
+                {
+                    "title": "Gestion des livres",
+                    "text": "<p>Nous récupérons les livres et leurs informations depuis l'API Gallica de la Bibliothèqye nationale de France (BnF). Grâce à cela, nous pouvons <b>filtrer les livres</b> selon leur <b>titre</b>, <b>auteur</b> ou même <b>l'éditeur</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/book.png"]
+                },
+                {
+                    "title": "Gestion des utilisateurs",
+                    "text": "<p>Les utilisateurs sont stockés dans une <b>base de donnée SQLite</b> pour pouvoir les <b>créer</b>, <b>modifier</b> et <b>supprimer</b> facilement.</p><p>Depuis un utilisateur, nous pouvons <b>accéder à son profil</b> et ainsi avoir accès à toutes ses <b>infomrations</b> ainsi qu'aux <b>emprunts qu'il a réalisé</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/user1.png", "/PortfolioVue/project_image/CY_BOOKS/user2.png"]
+                },
+                {
+                    "title": "Gestion des Emprunts",
+                    "text": "<p>Tout comme les utilisateurs, les emprunts sont dans une base de donnée SQLite. Tous les emprunts ont une <b>date limite de rendu</b> qui permet de savoir si l'emprunt est en retard ou non, cela se <b>met à jour automatiquement</b></p><p>Les emprunts peuvent aussi <b>être filtré</b> selon leur état : s'il sont <b>en retards</b>, <b>en cours</b> ou <b>terminées</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/CY_BOOKS/borrow.png"]
+                }
+            ]
+        },
+        "4": {
+            "title": "Space Shooter",
+            "summary": "Petit jeu de type space shooter réalisé sur le moteur de jeu Godot.",
+            "paragraphs": [
+                {
+                    "title": "Réalisation",
+                    "text": "<p>Le jeu a été réalisé avec le moteur <b>Godot</b>, en utilisant le langage du moteur : <b>GDScript</b>. Je me suis concentré sur un petit projet avec une boucle de jeu assez simple pour me familiariser avec Godot.</p><p>Les principales mécaniques implémentées sont le <b>déplacement du joueur</b>, le <b>système de tir</b>, l'<b>apparition des ennemis</b> et le <b>boss final</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/making.png"]
+                    
+                },
+                {
+                    "title": "Gameplay",
+                    "text": "<p>Le jeu est assez simple, il suffit de vaincre assez d'ennemis pour pouvoir accèder au boss et le vaincre à son tour.</p><p>Il existe trois types d'ennemis avec des <b>comportements différents</b> : <ul><li>Le premier ennemi se <b>déplacer en ligne droite</b> vers le bas de l'écran</li><li>Le deuxième ennemi est similaire au premier mais est beaucoup <b>plus rapide</b> avec un <b>mouvement oscillant</b><li>Le troisième ennemi essaye de <b>s'alligner avec le joueur</b> pour lui <b>tirer dessus</b></li></ul></p>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/game1.png", "/PortfolioVue/project_image/Space_shooter/game2.png"]
+                }
+                ,
+                {
+                    "title": "Comportement du boss",
+                    "text": "<p>Le boss du jeu est une <b>machine à états</b>. Chaque état correspond à un comportement / attaque du boss et change toutes les quelques secondes. Il n'y a pas d'ordre précis quant au changement, donc le joueur se doit de réagir correment à chaque état.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Space_shooter/boss.png"]
+                }
+            ]
+        },
+        "5": {
+            "title": "Bataille navale",
+            "summary": "Jeu de bataille navale développé en C jouable dans le terminal.",
+            "paragraphs": [
+                {
+                    "title": "Le jeu",
+                    "text": "<p>Ce jeu en C reprend les règles classiques de la <b>batailles navales</b>. Il faut <b>placer différents bateaux</b> et essayer de <b>détruire les bateaux de l'adversaire</b>. Ce jeu ce joue uniquement <b>seul contre un ordinateur</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/game1.png", "/PortfolioVue/project_image/Bataille_navale/game2.png"]
+                },
+                {
+                    "title": "L'ordinateur",
+                    "text": "<p>L'ordinateur possède un <b>comportement très simple</b> : il <b>tire aléatoirement</b> jusqu'à toucher un des navires du joueur. Cependant, s'il sélectionne trop de fois une case déjà touché, il se contentera de <b>parcourir toutes les cases</b> une par une jusqu'à <b>trouver une case non touchée</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/game3.png"]
+                },
+                {
+                    "title": "Commentaires",
+                    "text": "<p>Le code est entièrement documenté selon les normes <b>Doxygen</b>. Cela permet de générer <b>rapidement</b> une <b>documentation claire</b> et <b>structurée</b>.</p>",
+                    "imgs": ["/PortfolioVue/project_image/Bataille_navale/comment1.png", "/PortfolioVue/project_image/Bataille_navale/comment2.png"]
+                }
+
+            ]
+        }
+    }
+}

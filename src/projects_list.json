@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "technos": ["React", "Ionic", "Android Studio"],
+        "type": "professional",
+        "img": "/PortfolioVue/project_image/Tekien/main_image.png"
+    },
+    {
+        "id": 2,
+        "technos": ["OpenGL"],
+        "type": "academic",
+        "img": "/PortfolioVue/project_image/Moteur3D/main_image.png"
+    },
+    {
+        "id": 3,
+        "technos": ["Java", "SQLite"],
+        "type": "academic",
+        "img": "/PortfolioVue/project_image/CY_BOOKS/main_image.png"
+    },
+    {
+        "id": 4,
+        "technos": ["Godot"],
+        "type": "personal",
+        "img": "/PortfolioVue/project_image/Space_shooter/main_image.png"
+    },
+    {
+        "id": 5,
+        "technos": ["C"],
+        "type": "personal",
+        "img": "/PortfolioVue/project_image/Bataille_navale/main_image.png"
+    }
+]
